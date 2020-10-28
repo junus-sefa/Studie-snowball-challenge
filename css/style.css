@@ -42,6 +42,32 @@ footer{
   font-weight: 900;
 }
 
+@media only screen and (max-width: 600px) {
+  .boks{
+    padding: 50px;
+    text-align: center;
+  }
+  .rad{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .kolonne{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .galleri{
+    display: flex;
+    flex-wrap: nowrap;
+  }.galleri .bilde{
+    flex:100%;
+  }
+}
+
 .bold{font-weight: bold;}
 .lys{color:#fff;}
 .left_align{text-align: left;}
@@ -137,30 +163,4 @@ footer{
 #about h1{
   position: fixed;
   z-index: 100;
-}
-
-@media only screen and (max-width: 600px) {
-  .boks{
-    padding: 50px;
-    text-align: center;
-  }
-  .rad{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-
-  .kolonne{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 0 30px;
-  }
-
-  .galleri{
-    display: flex;
-    flex-wrap: nowrap;
-  }.galleri .bilde{
-    flex:100%;
-  }
 }

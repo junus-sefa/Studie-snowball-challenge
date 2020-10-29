@@ -42,29 +42,35 @@ footer{
   font-weight: 900;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (min-device-width : 0px) and (max-device-width : 630px){
+  #home{
+    flex-direction: column;
+    font-size: 30px!important;
+    text-align: center!important;
+  }
   .boks{
-    padding: 50px;
-    text-align: center;
+    padding: 90px 50px!important;
+    text-align: center!important;
   }
   .rad{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+    display: flex!important;
+    flex-wrap: wrap!important;
+    width: 100%!important;
   }
 
   .kolonne{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 0 30px;
+    display: flex!important;
+    flex-direction: column!important;
+    width: 100%!important;
+    padding: 0 30px!important;
   }
 
   .galleri{
-    display: flex;
-    flex-wrap: nowrap;
-  }.galleri .bilde{
-    flex:100%;
+    display: flex!important;
+    flex-direction: column;
+  }
+  .galleri .bilde{
+    flex:100%!important;
   }
 }
 
